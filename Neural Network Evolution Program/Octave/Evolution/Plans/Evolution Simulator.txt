@@ -1,0 +1,22 @@
+Genetic Evolution of Neural Networks.
+
+Simple forward NN with Back propagation ability.
+
+Evolution Wise:
+Genes:
+Activation Function
+Connection Routes (Can only be feed forward, no loop backs)
+lambda
+# Of Iterations (cap at 100)
+
+Metric:
+Each NN will learn to adapt to it's environment, the one that
+learns to do so the best will be the best.
+
+Environment:
+
+Make Alphabet classifiers.
+
+Generation Step:
+
+Spawn 1000 NN randomly

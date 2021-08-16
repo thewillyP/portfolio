@@ -1,0 +1,16 @@
+I will construct a simple evolution simulator that will evolve
+neural networks to be more accurate on alphabet training set.
+
+It will randomly produce neural networks with random configurations
+and train them each generation. The best preforming ones live
+while the worst preforming ones are culled.
+
+Hard Limits:
+Training iterations cap is 150.
+Number of hidden neurons usable is 30. 
+Lambda from 0 < x < 1000.
+
+Evaluation:
+Will see how well it does on training set 3 times, and take the
+average percentage. Percent avg will be it's score. 
+
